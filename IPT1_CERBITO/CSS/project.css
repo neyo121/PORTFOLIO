@@ -1,0 +1,64 @@
+.game-container {
+    border: solid 1px black;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, sans-serif;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.game-container h2 {
+    color: green;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.game-container input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.game-container button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.game-container button:hover {
+    background-color: darkgreen;
+}
+
+.game-container p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.try-again-button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.try-again-button:hover {
+    background-color: darkred;
+}

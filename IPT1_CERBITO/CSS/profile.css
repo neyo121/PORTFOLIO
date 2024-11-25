@@ -1,0 +1,38 @@
+.card{
+    border: 3px solid;
+    padding: 1px;
+    width: 650px;
+    height: 860px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    background: cornsilk;
+    margin-top: 5px;
+    
+  }
+
+  .info{
+   
+    margin-top: 55px;
+    margin-bottom: 100px;
+    margin-left: 4px;
+    padding: 10px;
+    position: absolute;
+
+  }
+
+  .educationals{
+    left: 370px;
+    margin-top:55px;
+    margin-right: 1px;
+    position: absolute;
+
+
+  }
+
+  #bottom{
+    position: absolute;
+    margin-top: 810px;
+  }
+ 
